@@ -33,7 +33,7 @@ const calcularEdad = (fechaNacimiento) => {
     const mesActual = parseInt(fechaActual.getMonth()) + 1;
     const diaActual = parseInt(fechaActual.getDate());
 
-    // Formato de fecha 2018-07-11 ("yyyy-mm-dd")
+    // Formato de fecha 2023-01-01 ("yyyy-mm-dd")
     
     const anoNacimiento = parseInt(String(fechaNacimiento).substring(0, 4));
     const mesNacimiento = parseInt(String(fechaNacimiento).substring(5, 7));
